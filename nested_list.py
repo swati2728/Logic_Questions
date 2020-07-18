@@ -99,46 +99,8 @@
 # =============================================================
 
 # questions 5
-
-# magic_square = [[8, 3, 4 ],
-#        			[1, 5, 9],
-#       			[6, 7, 2]]
-# row=0
-# while row<len(magic_square):
-# 	print(magic_square)
-# 	col=1
-# 	while col<len(magic_square):
-# 		sum=0
-# 		# col=col+1
-# 		if row==sum and col==sum:
-# 			print("it is magic_square")
-# 		else:
-# 			print("it is not a magic_square")
-# 		col=col+1
-# 		sum=sum+1	
-# 	row=row+1
-# print(sum)	
-
-
-
-# magic_square = [[8, 3, 4 ],
-#        			[1, 5, 9],
-#       			[6, 7, 2]]
-# i=0
-# while i < len(magic_square):
-# 	j=0
-# 	sum=0
-# 	while j < len(magic_square[0]):
-# 		j=j+1
-# 		if i==j:
-# 			print("it is a magic_square")
-# 		else:
-# 			print("it is not a magic_square")
-# 	i=i+1
-# print(sum)				
-
 # magic_square = [
-#     [8, 3, 4],
+#     [8, 13, 4],
 #     [1, 5, 9],
 #     [6, 7, 2]
 # ]
@@ -147,14 +109,14 @@
 # 	index=0
 # 	sum=0
 # 	while index<len(magic_square[row]):
-# 		sum=sum+magic_square[row][index]
-# 		index=index+1
-# 		if sum==sum:
-# 			print("it is a magic_square")
-# 		else:
-# 			print("it is not a magic_square")	
-# 	break   	
-# 	row=row+1
+# 			sum=magic_square[row][index]+len(magic_square)
+# 			index=index+1
+# 	if sum==sum:
+# 		print("it is a magic_square")
+	# else:
+	# 	print("it is not a magic_square")	
+	# # break   	
+	# row=row+1
 # print(sum)				
 
 # ====================================================================
@@ -241,24 +203,27 @@
 	# index=index+1
 
 
-number=30
-num=[10, 11, 12, 13, 14, 17, 18, 19]
-index=0
-list2=[ ]
-while index<len(num):
-	sum=0
-	j=index+1
-	while j<len(num):
-		if num[index]+num[j]==number:
-			a=[num[index],num[j]]
-			list2.append(a)
-		j=j+1
-	index=index+1
-print(list2)		
+# number=30
+# num=[10, 11, 12, 13, 14, 17, 18, 19]
+# index=0
+# list2=[ ]
+# while index<len(num):
+# 	sum=0
+# 	j=index+1
+# 	while j<len(num):
+# 		if num[index]+num[j]==number:
+# 			a=[num[index],num[j]]
+# 			list2.append(a)
+# 		j=j+1
+# 	index=index+1
+# print(list2)		
 
 
   
 """ to improve the logical part """	
+
+
+
 # magic_square = [[8, 123, 4],
 #     			[1, 5, 9],
 #     			[6, 7, 2]]

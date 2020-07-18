@@ -137,18 +137,14 @@
 # 	a=a-1
 
 
-a=5
-while a<=1:
-	j=1
-	while j<=a:
-		print(j)
-		j=j+1
-	print("")	
-a=a-1	
-	
-# Commercse=[{"name":"Anurag","percentage":"99"},{"name":"swati","percentage":"100"},{"name":"’Yusuf","percentage":"70"}]
-# Commerce["percentage"]=	100
-# print(Commerce)
+# a=5
+# while a<=1:
+# 	j=1
+# 	while j<=a:
+# 		print(j)
+# 		j=j+1
+# 	print("")	
+# a=a-1	
 
 
 

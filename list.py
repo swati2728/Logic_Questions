@@ -603,17 +603,17 @@
 """debgging the line 618 how to multiply the index value"""
 
 
-list1=[[1,2,3],[3,8,4],[7,3,5]]
-index=0
-maximum=[ ]
-while index<len(list1):
-	j=0
-	while j<len(list1[index][j]):
-		product=list1[0][0]*list1[1][0]*list1[2][0]
-		maximum.append(product)
-		j=j+1
-	index=index+1
-print(maximum)
+# list1=[[1,2,3],[3,8,4],[7,3,5]]
+# index=0
+# maximum=[ ]
+# while index<len(list1):
+# 	j=0
+# 	while j<len(list1[index][j]):
+# 		product=list1[0][0]*list1[1][0]*list1[2][0]
+# 		maximum.append(product)
+# 		j=j+1
+# 	index=index+1
+# print(maximum)
 
 
 
@@ -643,7 +643,7 @@ print(maximum)
 # 	print("total count is:",answer)
 # elif symbol=="/":
 # 	answer=num1/num2
-# 	print("total count is:",answer)
+	# print("total count is:",answer)
 # elif symbol=="*":
 # 	answer=num1*num2
 # 	print("total count is:",answer)
@@ -652,4 +652,20 @@ print(maximum)
 # 	print(index)
 # 	index=index+1				
 # =======================================================================
+# remove negetive numbers
+
+list1=[2,1,-5,3,-8,1,7]
+index=0
+# list2=[]
+while index<len(list1):
+	if list1[index]<0:
+		# list2.append(list1[index])
+		list1.remove(list1[index])
+		list1.insert(list1[index],0)
+	index=index+1
+print(list1)
+# print(list2)		
+
+
+
 
